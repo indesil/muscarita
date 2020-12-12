@@ -1,2 +1,2 @@
-# muscarita
+# Muscarita
 Static dependency injection framework!
