@@ -47,7 +47,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>muscarita-annotations</module>
-        <module>muscarita-compiler</module>
+        <module>muscarita-processor</module>
         <module>muscarita-integration-tests</module>
     </modules>
 

@@ -15,9 +15,15 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>muscarita-compiler</artifactId>
+    <artifactId>muscarita-processor</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>io.github.indesil</groupId>
+            <artifactId>muscarita-annotations</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.squareup</groupId>
             <artifactId>javapoet</artifactId>
